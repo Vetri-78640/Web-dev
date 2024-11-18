@@ -1,0 +1,162 @@
+Attendance .css
+/* .header{
+    background-color:#007bff ;
+    color:white;
+    padding:15px;
+}
+#page-title {
+    font-size: 25px;
+    color:#ff6347;
+}
+footer{
+    background-color: #222;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    }
+.student-name{
+    font-weight: bold;
+}
+.attendance-container{
+    margin: 20px;
+    padding: 20px;
+}
+#attendance-list li {
+    list-style-type: square;
+    padding-left:20px;
+    font-size: 12px;
+    margin: 10px;
+}
+.attendance-status-present{
+    color: green;
+}
+.attendance-status-absent{
+    color: red;
+}
+#student-list  :hover{
+    background-color:#f0f0f0 ;
+}
+#attendance-list li :hover{
+    background-color:#f0f0f0 ;
+} */
+attendance.html
+/* <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Records</title>
+</head>
+<body>
+    <header class="header">
+        <h1 id="page-title">Attendance Records</h1>
+        <p>Track attendance for each student</p>
+        <link rel="stylesheet" href="attendance.css">
+    </header>
+
+    <div class="attendance-container">
+        <ul id="attendance-list">
+            <li class="attendance">
+                <span class="attendance-name">Alice Johnson</span>
+                <span class="attendance-status-present">Present</span>
+            </li>
+            <li class="attendance">
+                <span class="attendance-name">John Smith</span>
+                <span class="attendance-status-absent">Absent</span>
+            </li>
+            <li class="attendance">
+                <span class="attendance-name">Sarah Brown</span>
+                <span class="attendance-status-present">Present</span>
+            </li>
+            <li class="attendance">
+                <span class="attendance-name">Michael Lee</span>
+                <span class="attendance-status-present">Present</span>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Contact us for more details</p>
+    </footer>
+</body>
+</html> */
+
+Index.css
+/* .header{
+    background-color:#007bff ;
+    color:white;
+    padding:15px;
+}
+#page-title {
+    font-size: 25px;
+    color:#ff6347;
+}
+.student-name{
+    font-weight: bold;
+}
+.student-grade{
+    color:#555;
+}
+.student-container{
+    margin:20px;
+    padding: 20px;
+}
+footer{
+    background-color: #222;
+    color:white;
+    padding: 10px;
+    text-align: center;
+    }
+#student-list{
+    list-style: circle;
+    padding: 20px;
+    font-size: 12px;
+    margin: 10px;
+}
+#student-list  li :hover{
+    background-color:#f0f0f0 ;
+} */
+ 
+ index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+</head>
+<body>
+    <header class="header">
+        <h1 id="page-title">Student List</h1>
+        <p>Here are the students and their grades</p>
+        <link rel="stylesheet" href="index.css">
+    </header>
+
+    <div class="student-container">
+        <ul id="student-list">
+            <li class="student">
+                <span class="student-name">Alice Johnson</span>
+                <span class="student-grade">Grade: A</span>
+            </li>
+            <li class="student">
+                <span class="student-name">John Smith</span>
+                <span class="student-grade">Grade: B</span>
+            </li>
+            <li class="student">
+                <span class="student-name">Sarah Brown</span>
+                <span class="student-grade">Grade: C</span>
+            </li>
+            <li class="student">
+                <span class="student-name">Michael Lee</span>
+                <span class="student-grade">Grade: A+</span>
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Contact us for more details</p>
+    </footer>
+</body>
+</html> 
+
+

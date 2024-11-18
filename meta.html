@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  /* Creating Buttons */
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    width: 100px;
+    height : 30px;
+    color : white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15s;
+    }
+  .join-button {
+    border: 1px solid rgb(0, 0, 254);
+    width: 50px;
+    height : 30px;
+    border-style: solid;
+    border-radius: 2px;   
+    color: blue;
+    margin-right: 10px;
+    transition: background-color 0.15s, 
+    color 0.15s;
+    
+  }
+  .Tweet-button {
+    background-color: rgb(0, 157, 255);
+    width: 60px;
+    border:none;
+    font-weight: bolder;
+    padding : 5px;
+    height : 30px;
+    border-style: solid;
+    border-radius: 50px; 
+    color: white; 
+    transition: background-color 0.15s,box-shadow 0.15s; 
+    
+
+  }
+  /*Reactive hover buttons  */
+  .Tweet-button:hover{
+    background-color: rgb(9, 163, 163);
+    cursor: pointer;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.20);
+  }
+  /* Reactive button in Active state */
+  .subscribe-button:active{
+    opacity: 0.4;
+  }
+  /* Fade in and Fade out oppacity */
+  .join-button:hover{ 
+    background-color: rgb(0, 0, 254);
+    border-color: rgb(0, 0, 254);
+    color:white;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .join-button:active{
+    opacity: 0.3;
+  }
+  .subscribe-button:hover{
+    opacity: 0.8;
+  }
+  
+</style>
+<body>
+    <p>YouTube</p>
+    <button class="subscribe-button">
+      SUBSCRIBE
+    </button>
+  <button class="join-button">
+    JOIN</button>
+    <button class="Tweet-button">
+      Tweet</button>
+</body>
+</html>
